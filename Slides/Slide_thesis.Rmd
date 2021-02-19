@@ -1,0 +1,32 @@
+---
+title: "Thesis degree"
+author: "Byron Quito"
+date: "2/18/2021"
+output: 
+  ioslides_presentation: 
+    widescreen: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Tema
+
+
+## Problema
+
+- Desigualdad
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
